@@ -15,38 +15,6 @@
 <header>
 
 
-    <nav class="navbar navbar-expand-lg shadow sticky-top navbar-light bg-white ">
-        <div class="container">
-
-
-            <a class="navbar-brand" href="#"><img src="./images/Asset 1.svg" width="80px" alt=""></a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
-                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav mr-auto">
-                    <li class="nav-item px-3">
-                        <a class="nav-link   " href="#">À-propos</a>
-                    </li>
-                    <li class="nav-item px-3">
-                        <a class="nav-link   " href="#contact">Contact</a>
-                    </li>
-
-
-                </ul>
-
-
-                <div class="my-2 my-lg-0">
-
-                    <button class="menu-btn my-2 my-sm-0 text-capitalize">connexion</button>
-                </div>
-
-            </div>
-        </div>
-    </nav>
-
     <section class="mt-5">
         <div class="container">
             <div class="row">
@@ -57,6 +25,12 @@
                         
                     </p>
                     <button class="btn-hero menu-btn-2 my-2 my-sm-0 text-capitalize">créer menu</button>
+                    <div class=" h5 font-weight-light hero-text my-3">
+                        Pour protèger vos clients et facilitez l&#39;accéder au menu de votre restaurant, snack, café,...
+                        Nous vous proposons la création de votre menu pour qu&#39;il soit accessible en ligne via un code
+                        QR.
+                        Avec un image qui montre le service
+                    </div>
                 </div>
 
                 <div class="col-md-6 text-center">
@@ -66,27 +40,20 @@
         </div>
     </section>
 </header>
-    <section class="my-5">
-        <div class="container">
-            <div class="row">
-                <div class="col-12 text-center h4 font-weight-light my-auto">
-                    Pour protèger vos clients et facilitez l&#39;accéder au menu de votre restaurant, snack, café,...
-                    Nous vous proposons la création de votre menu pour qu&#39;il soit accessible en ligne via un code
-                    QR.
-                    Avec un image qui montre le service
-                </div>
-            </div>
-        </div>
-
-    </section>
+    
 
     <section class="my-5 max-width bg-light pt-5">
         <div class="container-fluid">
             <div class="row mx-auto">
                 <div class="col-md-7 col-sm-6 px-4 my-auto ">
-                    <p class="h2 font-weight-bold big-text">CARACTÈRISTIQUE ?</p>
+                    <p class="h2 font-weight-bold big-text">CARACTÈRISTIQUES</p>
 
                     <div class="row mt-5 mb-4 container">
+                        <div class="col-12">
+                            <p><img class="svg mr-2" id="u392"
+                                src="images/602bc5fe724aa52de4bf5023_check.svg?crc=4253101097" width="16"
+                                height="19" alt="">Nom de domaine &amp; Hébergement web</p>
+                        </div>
                         <div class="col-md-6 col-xs-12">
                             <p><img class="svg mr-2" id="u392"
                                     src="images/602bc5fe724aa52de4bf5023_check.svg?crc=4253101097" width="16"
@@ -103,9 +70,7 @@
 
                         </div>
                         <div class="col-md-6 col-xs-12">
-                            <p><img class="svg mr-2" id="u392"
-                                    src="images/602bc5fe724aa52de4bf5023_check.svg?crc=4253101097" width="16"
-                                    height="19" alt="">Nom de domaine &amp; Hébergement web</p>
+                           
                             <p><img class="svg mr-2" id="u392"
                                     src="images/602bc5fe724aa52de4bf5023_check.svg?crc=4253101097" width="16"
                                     height="19" alt="">Mise en ligne</p>
@@ -134,10 +99,9 @@
         <div class="container">
             <div class="row">
                 <div class="col-md-6 p-3 my-auto">
-                    <p class="h3 font-weight-bold">Combien coûte MyMenu</p>
-                    <p class="text-monospace my-4">le tarif de la prestation <span class="text-pink">600DH</span> </p>
-                    <p class="h4 font-weight-light">Laissez-nous vos coordonnées afin de vous contacter pour parler de
-                        votre futur menu digital.</p>
+                    <p class="h2 font-weight-bold text-capitalize">Coûte de prestation</p>
+                    <p class="h3 font-weight-bold my-4 text-pink"><money class="h3">600<currency>Dhs</currency></money></p>
+                   
 
 
 
@@ -148,6 +112,8 @@
                             <div
                                 class="w-100 rounded text-center text-white font-weight-bold py-3 h4 text-capitalize bg-prim">
                                 Contactez-nous
+                                <p class="m-3 font-weight-light">Laissez-nous vos coordonnées afin de vous contacter pour parler de
+                                    votre futur menu digital.</p>
                             </div>
                             <form class=" p-4" action="#" id="contact" method="POST">
 
@@ -156,7 +122,7 @@
                                     <input type="text" class="form-control" name="nom" id="nom">
                                 </div>
                                 <div class="form-group">
-                                    <label class="text-capitalize" for="prenom">prenom</label>
+                                    <label class="text-capitalize" for="prenom">prénom</label>
                                     <input type="text" class="form-control" name="prenom" id="prenom">
                                 </div>
                                 <div class="form-group">
@@ -164,7 +130,7 @@
                                     <input type="email" class="form-control" name="Email" id="prenom">
                                 </div>
                                 <div class="form-group">
-                                    <label class="text-capitalize" for="telephone">telephone</label>
+                                    <label class="text-capitalize" for="telephone">téléphone</label>
                                     <input type="tel" class="form-control" name="telephone" id="prenom">
                                 </div>
                                 <div class="form-group">
@@ -186,90 +152,20 @@
         <div class="footer-big">
 
             <div class="container-fluid max-width">
-                <div class="row  mx-auto">
+                <div class="row  mx-auto my-auto">
 
-                    <div class="col-md-4 col-sm-4">
-                        <div class="footer-widget">
-                            <div class="footer-menu footer-menu--1">
-                                <h4 class="footer-widget-title text-pink">Catégorie populaire</h4>
+                   
+                  
 
-                                <ul class="list-unstyled text-white">
-
-
-                                    <li>
-                                        <a href="#" class="text-white">À-propos</a>
-                                    </li>
-
-                                    <li>
-                                        <a href="#" class="text-white">Contact</a>
-                                    </li>
-
-
-
-                                </ul>
-                            </div>
-
-                        </div>
-
+                   
+                    <div class="col-md-12 mx-auto mb-3  text-center d-inline">
+                        <a href="mailto:contact@mymenu.ma"
+                        class="text-white d-inline mx-2"> <i class="far fa-envelope fa-lg text-pink"></i> :contact@mymenu.ma</a>
+                   
+                        <p class="d-inline"> <i class="fas fa-phone-alt fa-lg text-pink"></i> : +212 699 871 630</p>
                     </div>
 
-
-                    <div class="col-md-4 col-sm-4">
-                        <div class="footer-widget">
-                            <div class="footer-menu">
-                                <h4 class="footer-widget-title text-pink text-capitalize">contact</h4>
-                                <ul class="list-unstyled">
-                                    <li>
-                                        <a href="mailto:contact@mymenu.ma"
-                                            class="text-white">Email :contact@mymenu.ma</a>
-                                    </li>
-                                    <li>
-                                        <p>N° Tél : +212 699 871 630</p>
-                                    </li>
-                                </ul>
-                            </div>
-
-                        </div>
-
-                    </div>
-
-
-                    <div class="col-md-4 col-sm-4">
-                        <div class="footer-widget">
-                            <div class="footer-menu no-padding">
-                                <h4 class="footer-widget-title text-pink">Support d'aide</h4>
-                                <ul class="list-unstyled">
-
-                                    <li>
-                                        <a href="#" class="text-white">Termes & conditions</a>
-                                    </li>
-                                    <li class="mt-4">
-
-                                        <a href="#" class="text-white">
-
-                                            <i class="fab fa-facebook-messenger  fa-lg fa-fw"></i>
-                                        </a>
-                                        <a href="#" class="text-white">
-
-                                            <i class="fab fa-whatsapp fa-lg fa-fw"></i>
-                                        </a>
-                                        <a href="#" class="text-white">
-
-                                            <i class="fab fa-facebook  fa-lg fa-fw  "></i>
-                                        </a>
-                                        <a href="#" class="text-white">
-
-                                            <i class="fab fa-instagram fa-lg fa-fw"></i>
-                                        </a>
-
-                                    </li>
-
-                                </ul>
-                            </div>
-
-                        </div>
-
-                    </div>
+                 
 
 
                 </div>
