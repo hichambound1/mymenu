@@ -59,20 +59,20 @@ a:hover {
     border-radius: 32px;
     color: #ffffff;
 }
-
+.menu-btn-2:hover{
+    background: #ffffff;
+    color: #f04f77;
+    border: 3px solid #f04f77;
+    transition: all .5s ease-in-out;
+    -webkit-transition: all .5s ease-in-out;
+}
 .menu-btn:hover {
     background-color: #f04f77;
     color: white;
-    transition: all .3s ease-in-out;
-    -webkit-transition: all .3s ease-in-out;
+    transition: all .5s ease-in-out;
+    -webkit-transition: all .5s ease-in-out;
 }
-.menu-btn-2:hover {
-    background-color: #ffffff;
-    color: #f04f77;
-    border: 3px solid #f04f77;
-    transition: all .3s ease-in-out;
-    -webkit-transition: all .3s ease-in-out;
-}
+
 .max-width {
     max-width: 1800px;
     margin: auto;
@@ -93,7 +93,9 @@ a:hover {
     color: rgb(255, 71, 95);
 }
 
-
+.font-s{
+    font-size: 14px;
+}
 
 form div label {
     color: rgb(243, 55, 115);
